@@ -1,0 +1,78 @@
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('grass_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    width: 300px;
+
+    text-align: center;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+input {
+
+    width: 100%;
+
+    margin-bottom: 15px;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
+}
+
+button {
+
+    width: 100%;
+
+    margin-top: 10px;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2a5298;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+button:hover {
+
+    background: #1e3c72;
+}
+
+#message {
+
+    margin-top: 15px;
+
+    font-weight: bold;
+}
