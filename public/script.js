@@ -53,8 +53,12 @@ async function login() {
     document.getElementById("message")
         .textContent = data.message;
 
-    if (data.success) {
+if (data.success) {
+    document.getElementById("message").textContent =
+        "Вход выполнен. Перенаправление...";
 
-        alert("Добро пожаловать!");
-    }
+    setTimeout(() => {
+        window.location.href = "https://fc-tornado.tilda.ws/#rec1756506043";
+    }, 1500);
+}
 }
