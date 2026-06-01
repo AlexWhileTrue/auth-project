@@ -58,7 +58,7 @@ if (data.success) {
         "Вход выполнен. Перенаправление...";
 
     setTimeout(() => {
-        window.location.href = "https://fc-tornado.tilda.ws/#rec1756506043";
+        window.location.href = "https://myprofile-tornado-fc-1.onrender.com/";
     }, 1500);
 }
 }
