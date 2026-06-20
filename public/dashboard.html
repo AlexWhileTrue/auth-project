@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Личный кабинет</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<link rel="stylesheet" href="dashboard.css">
+
+<div class="dashboard">
+
+    <header>
+
+<h2>Привет, <span id="profileName"></span></h2>
+
+        <h1>⚽ Личный кабинет</h1>
+
+        <div class="user-panel">
+            <span id="username">Игрок</span>
+            <button onclick="logout()">Выход</button>
+        </div>
+
+    </header>
+
+    <section class="stats">
+
+        <div class="card">
+            <h3>Матчей</h3>
+            <span id="matchCount">0</span>
+        </div>
+
+        <div class="card">
+            <h3>Новостей</h3>
+            <span id="newsCount">0</span>
+        </div>
+
+        <div class="card">
+            <h3>Уведомлений</h3>
+            <span id="notificationCount">0</span>
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Расписание матчей</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Дата</th>
+                    <th>Соперник</th>
+                    <th>Стадион</th>
+                </tr>
+            </thead>
+
+            <tbody id="matchesTable"></tbody>
+
+        </table>
+
+    </section>
+
+    <section>
+
+        <h2>Новости клуба</h2>
+
+        <div id="newsContainer"></div>
+
+    </section>
+
+    <section>
+
+        <h2>Уведомления</h2>
+
+        <div id="notificationContainer"></div>
+
+    </section>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
