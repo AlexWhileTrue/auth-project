@@ -78,14 +78,36 @@ async function loadNotifications() {
         </div>
 
     `).join("");
+} // <- close function here
+
+
+const NewsBtn = document.getElementById("NewsBtn");
+console.log("NewsBtn =", NewsBtn);
+
+if (NewsBtn) {
+    NewsBtn.addEventListener("click", function() {
+        alert("Предыдущий матч кончился со счётом 5-0!");
+    });
 }
+
+const NotifBtn = document.getElementById("NotifBtn");
+console.log("NotifBtn =", NotifBtn);
+if (NotifBtn) {
+    NotifBtn.addEventListener("click", function() {
+        alert("Завтра тренировка!");
+    });
+}
+
 
 function logout() {
 
     localStorage.removeItem("username");
 
     window.location.href = "/";
+
+
 }
+
 
 loadNews();
 loadMatches();

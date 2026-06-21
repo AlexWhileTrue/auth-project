@@ -1,4 +1,4 @@
-cconsole.log("script loaded");
+console.log("script loaded");
 
 async function register() {
     const username = document.getElementById("username").value;

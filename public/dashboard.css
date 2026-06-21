@@ -56,3 +56,25 @@ button{
     border-radius:8px;
     cursor:pointer;
 }  
+
+.custom-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  
+  cursor: pointer; /* Changes the mouse pointer to a hand
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
+
+.custom-btn:active {
+  transform: scale(0.98); 
+}
